@@ -61,7 +61,7 @@ function HeroSection() {
                     Gmail
                 </Button>
           </Link>
-          <Link href={"mailto:bishtsuraj087@gmail.com"} type="_blank" 
+          <Link href={"https://drive.google.com/file/d/1-NogR6uWOzg9GMekRfG3Gky-wgGXE2GV/view?usp=drivesdk"} type="_blank" 
             className=" mr-3"
             >
                 <Button
