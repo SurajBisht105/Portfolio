@@ -7,19 +7,19 @@ const musicSchoolTestimonials = [
       quote:
         'Bachelors Of Technology(CSE)',
       name: 'RD Engineering College',
-      // title: 'SGPA - 7',
+       title: 'SGPA - 7',
     },
     {
       quote:
         "Intermediate",
       name: 'Saraswati Vidya Mandir',
-      // title: 'Percentage - 61%',
+       title: 'Percentage - 61%',
     },
     {
       quote:
         "High School",
       name: 'Saraswati Vidya Mandir',
-      // title: 'Percentage - 66%',
+       title: 'Percentage - 66%',
     },
   
   ];
