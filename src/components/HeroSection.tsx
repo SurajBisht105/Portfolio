@@ -41,7 +41,7 @@ function HeroSection() {
         className="mt-4 font-normal text-base md:text-lg text-neutral-300 max-w-lg mx-auto"
         >Passionate <span className=" text-orange-600 text-md">Full-Stack Developer.</span>Showcasing projects demonstrating front-end, back-end proficiency.Eager to learn and contribute </p>
         <div className="mt-4 flex justify-center text-centers items-center">
-            <Link href={"https://www.linkedin.com/in/suraj-bisht-644208273/"} type="_blank" 
+            {/* <Link href={"https://www.linkedin.com/in/suraj-bisht-644208273/"} type="_blank" 
             className=" mr-3"
             >
                 <Button
@@ -50,8 +50,8 @@ function HeroSection() {
                 >
                     LinkedIn
                 </Button>
-          </Link>
-          <Link href={"mailto:bishtsuraj087@gmail.com"} type="_blank" 
+          </Link> */}
+          {/* <Link href={"mailto:bishtsuraj087@gmail.com"} type="_blank" 
             className=" mr-3"
             >
                 <Button
@@ -60,7 +60,7 @@ function HeroSection() {
                 >
                     Gmail
                 </Button>
-          </Link>
+          </Link> */}
           <Link href={"https://drive.google.com/file/d/1-NogR6uWOzg9GMekRfG3Gky-wgGXE2GV/view?usp=drivesdk"} type="_blank" 
             className=" mr-3"
             >
@@ -71,14 +71,14 @@ function HeroSection() {
                     Resume
                 </Button>
             </Link>
-            <Link href={"https://github.com/SurajBisht105"} type="_blank">
+            {/* <Link href={"https://github.com/SurajBisht105"} type="_blank">
                 <Button
                 borderRadius="1.75rem"
                 className="bg-white dark:bg-slate-900 text-black dark:text-white border-neutral-200 dark:border-slate-800"
                 >
                     GitHub
                 </Button>
-          </Link>
+          </Link> */}
           
         </div>
       </div>
