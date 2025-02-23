@@ -1,27 +1,47 @@
-"use client"
+"use client";
 
-import { useState } from "react"
-import { Github, Linkedin, Mail } from "lucide-react"
+import { useState } from "react";
+import { Github, Linkedin, Mail } from "lucide-react";
+import emailjs, { EmailJSResponseStatus } from "emailjs-com";
 
 export default function Contact() {
   const [formData, setFormData] = useState({
     name: "",
     email: "",
     message: "",
-  })
+  });
 
-  const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
-    const { name, value } = e.target
-    setFormData((prevState) => ({ ...prevState, [name]: value }))
-  }
+  const handleChange = (
+    e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>
+  ) => {
+    const { name, value } = e.target;
+    setFormData((prevState) => ({ ...prevState, [name]: value }));
+  };
 
   const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
-    e.preventDefault()
-    // Here you would typically send the form data to a server
-    console.log("Form submitted:", formData)
+    e.preventDefault();
+
+    emailjs
+      .sendForm(
+        process.env.NEXT_PUBLIC_EMAILJS_SERVICE_ID!,
+        process.env.NEXT_PUBLIC_EMAILJS_TEMPLATE_ID!,
+        e.target as HTMLFormElement,
+        process.env.NEXT_PUBLIC_EMAILJS_USER_ID!
+      )
+      .then(
+        (result: EmailJSResponseStatus) => {
+          console.log(result.text);
+          alert("Message sent successfully!");
+        },
+        (error: { text: string }) => {
+          console.log(error.text);
+          alert("Failed to send the message, please try again.");
+        }
+      );
+
     // Reset form after submission
-    setFormData({ name: "", email: "", message: "" })
-  }
+    setFormData({ name: "", email: "", message: "" });
+  };
 
   return (
     <div className="container mx-auto px-4 py-8">
@@ -109,6 +129,5 @@ export default function Contact() {
         </div>
       </div>
     </div>
-  )
+  );
 }
-
