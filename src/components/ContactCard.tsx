@@ -81,7 +81,7 @@ export default function Contact() {
           <h2 className="text-2xl font-semibold mb-4">Connect with me</h2>
           <div className="space-y-4">
             <a
-              href="https://github.com/johndoe"
+              href="https://github.com/SurajBisht105"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center space-x-2 text-blue-500 hover:text-blue-600"
