@@ -90,7 +90,7 @@ export default function Contact() {
               <span>GitHub</span>
             </a>
             <a
-              href="https://linkedin.com/in/johndoe"
+              href="https://www.linkedin.com/in/suraj-bisht-644208273/"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center space-x-2 text-blue-500 hover:text-blue-600"
