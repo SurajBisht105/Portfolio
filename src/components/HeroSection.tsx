@@ -61,7 +61,7 @@ function HeroSection() {
                     Gmail
                 </Button>
           </Link> */}
-          <Link href={"https://drive.google.com/file/d/1-NogR6uWOzg9GMekRfG3Gky-wgGXE2GV/view?usp=drivesdk"} type="_blank" 
+          <Link href={"https://drive.google.com/file/d/1DRDbd4G-ZjMVaXqhvYEqRSLysYCCrOe1/view?usp=drive_link"} type="_blank" 
             className=" mr-3"
             >
                 <Button
