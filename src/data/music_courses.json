@@ -3,7 +3,7 @@
     "courses": [
       {
         "id": 1,
-        "title": "Anonymous Feedback System",
+        "title": "True-Feedback Web-App",
         "slug": "https://true-feedback-amber.vercel.app/",
         "description": "Developed a full-stack application for collecting anonymous feedback with robust authentication and OTP verification features. Share your Public Profile link to enjoy anonymous feedbacks.",
         "price": 109.99,
