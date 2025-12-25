@@ -4,7 +4,7 @@
       {
         "id": 1,
         "title": "True-Feedback Web-App",
-        "slug": "https://true-feedback-wheat.vercel.app/",
+        "slug": "https://www.surajbisht.me/",
         "description": "Developed a full-stack application for collecting anonymous feedback with robust authentication and OTP verification features. Share your Public Profile link to enjoy anonymous feedbacks.",
         "price": 109.99,
         "instructor": "Next.JS| React.JS | Express | Typescript | Next-Auth | Mongo-DB | Resend | React-hook-form | shadcn | Tailwind-CSS",
