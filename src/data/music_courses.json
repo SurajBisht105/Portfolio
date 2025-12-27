@@ -23,6 +23,16 @@
       },
       {
         "id": 3,
+        "title": "Mental Health Checkin",
+        "slug": "https://mental-health-checkin-app.vercel.app/",
+        "description": "A full-stack web application that allows users to perform daily mental health check-ins. Users can securely log their mood and stress levels, write encrypted journal entries, and visualize their mental health trends over time. The application features JWT-based authentication, responsive design for multiple devices, and interactive data visualizations.",
+        "price": 129.99,
+        "instructor": " React.js, Tailwind CSS, Axios, Recharts, Node.js, Express, MongoDB, JWT ",
+        "isFeatured": true,
+        "image": "/courses/drumming.jpg"
+      },
+      {
+        "id": 4,
         "title": "Password Generator",
         "slug": "https://password-generator-blush-one.vercel.app/",
         "description": "Developed a dynamic and secure password generator web application designed to create strong and customizable passwords. The application offers users a range of options for password length and complexity, enhancing online security.",
@@ -30,16 +40,6 @@
         "instructor": "React.js | Tailwind-CSS",
         "isFeatured": true,
         "image": "/courses/vocalist.jpg" 
-      },
-      {
-        "id": 4,
-        "title": "Currency Convertor",
-        "slug": "https://currency-convertor-psi-three.vercel.app/",
-        "description": "Developed a React Currency Converter is a web application that enables users to perform currency conversions using the API. With a simple and user-friendly interface, this app allows users to select the currencies they want to convert from and to, specify the amount, and instantly get the converted result. This app provides real-time exchange rate data for over 150+ currencies.",
-        "price": 129.99,
-        "instructor": "REACT.JS, CONTEXT_API, LOCAL STORAGE, TAILWIND CSS ",
-        "isFeatured": true,
-        "image": "/courses/drumming.jpg"
       },
       {
         "id": 5,
