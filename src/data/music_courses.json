@@ -27,7 +27,7 @@
         "slug": "https://mental-health-checkin-app.vercel.app/",
         "description": "A full-stack web application that allows users to perform daily mental health check-ins. Users can securely log their mood and stress levels, write encrypted journal entries, and visualize their mental health trends over time. The application features JWT-based authentication, responsive design for multiple devices, and interactive data visualizations.",
         "price": 129.99,
-        "instructor": " React.js, Tailwind CSS, Axios, Recharts, Node.js, Express, MongoDB, JWT ",
+        "instructor": "React.js | Tailwind CSS | Axios | Recharts | Node.js | Express | MongoDB | JWT",
         "isFeatured": true,
         "image": "/courses/drumming.jpg"
       },
